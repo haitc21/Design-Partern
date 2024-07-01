@@ -1,2 +1,2 @@
-﻿ICake cake = CakeFactory.CreateCake("new year");
+﻿ICake cake = CakeFactory.CreateCake("chocolate");
 cake.Bake();

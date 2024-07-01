@@ -3,12 +3,12 @@ public interface ICake
 {
     void Bake();
 }
-// Concrete Product - New Year Cake
-public class NewYearCake : ICake
+// Concrete Product - Chocolate Cake
+public class ChocolateCake : ICake
 {
     public void Bake()
     {
-        Console.WriteLine("Baking New Year Cake!");
+        Console.WriteLine("Baking a chocolate cake.");
     }
 }
 
